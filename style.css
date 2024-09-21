@@ -1,0 +1,91 @@
+@font-face {
+  font-family: salongbeach;
+  src: url(SALongBeach.otf);
+}
+
+@font-face {
+  font-family: sfpro-medium;
+  src: url(SF-Pro-Display-Medium.otf);
+}
+
+.fit {
+  display: flex;
+  margin-left: 0px;
+  width: 100%;
+}
+
+.header {
+  position: fixed;
+  top: -18.5px;
+  left: 0;
+  width: 100%;
+  background-color: #1b2232;
+  color: #FE0849;
+  padding: 10px 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  max-height: 74.67px;
+  display: flex;
+  
+}
+
+.header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.header nav ul li {
+  margin-right: 4px;
+}
+
+.header nav ul li a {
+  color: #FE0849;
+  text-decoration: none;
+}
+
+.content {
+  padding-top: 80px;
+}
+
+.hover-underline {
+  text-decoration: none;
+  transition: text-decoration 1s ease-out;
+}
+
+.hover-underline:hover {
+  text-decoration: underline;
+}
+
+.hover-box {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: white;
+  padding: 8px;
+  border-radius: 10px;
+  white-space: nowrap;
+}
+
+.hover-box:hover .tooltip {
+  display: blo
+}
+
+.img {
+  offset-path: path('M 50 80 C 150 -20 250 180 350 80');
+  offset-distance: 33%;
+}
